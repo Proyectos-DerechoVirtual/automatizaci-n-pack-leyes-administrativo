@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "api/cron/check-payments.js": {
+      "maxDuration": 120,
+      "memory": 512
+    },
+    "api/cron/check-expirations.js": {
+      "maxDuration": 120,
+      "memory": 512
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "automatizacion-pack-leyes-administrativo",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Automatización: enrolar/desenrolar alumnos en Pack Leyes Administrativo tras pago en Stripe",
+  "scripts": {
+    "test:connections": "node setup/test-connections.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "dotenv": "^17.3.1",
+    "stripe": "^17.0.0"
+  },
+  "devDependencies": {
+    "pg": "^8.18.0"
+  }
+}
